@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use App\Train;
 class TrainSeeder extends Seeder
 {
     /**
@@ -16,7 +16,7 @@ class TrainSeeder extends Seeder
                 'azienda' => 'Trenitalia',
                 'stazione_di_partenza' => 'Roma',
                 'stazione_di_arrivo' => 'Milano',
-                'orario_di_partenza' => '14:25',
+                'orario_di_partenza' => '14:00',
                 'orario_di_arrivo' => '17:30',
                 'codice_treno' => 55145496,
                 'numero_carrozze' => 25,
@@ -33,7 +33,7 @@ class TrainSeeder extends Seeder
             $newTrain->orario_di_partenza = $train['orario_di_partenza'];
             $newTrain->orario_di_arrivo = $train['orario_di_arrivo'];
             $newTrain->codice_treno = $train['codice_treno'];
-            $newTrain->azienumero_carrozzenda = $train['numero_carrozze'];
+            $newTrain->numero_carrozze = $train['numero_carrozze'];
             $newTrain->in_orario = $train['in_orario'];
             $newTrain->cancellato = $train['cancellato'];
 
