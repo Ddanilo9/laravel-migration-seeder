@@ -14,12 +14,56 @@ class TrainSeeder extends Seeder
         $trains = [
             [
                 'azienda' => 'Trenitalia',
-                'stazione_di_partenza' => 'Roma',
-                'stazione_di_arrivo' => 'Milano',
-                'orario_di_partenza' => '2022-08-25 14:30',
-                'orario_di_arrivo' => '2022-08-25 18:30',
-                'codice_treno' => 55145496,
+                'stazione_di_partenza' => 'Milano',
+                'stazione_di_arrivo' => 'Napoli',
+                'orario_di_partenza' => '2022-10-12 14:30',
+                'orario_di_arrivo' => '2022-10-12 20:10',
+                'codice_treno' => 65145496,
                 'numero_carrozze' => 25,
+                'in_orario' => 1,
+                'cancellato' => 0
+            ],
+            [
+                'azienda' => 'Trenitalia',
+                'stazione_di_partenza' => 'Milano',
+                'stazione_di_arrivo' => 'Venezia',
+                'orario_di_partenza' => '2022-10-13 08:30',
+                'orario_di_arrivo' => '2022-10-13 10:30',
+                'codice_treno' => 551496,
+                'numero_carrozze' => 10,
+                'in_orario' => 1,
+                'cancellato' => 0
+            ],
+            [
+                'azienda' => 'Trenord',
+                'stazione_di_partenza' => 'Milano',
+                'stazione_di_arrivo' => 'Mantova',
+                'orario_di_partenza' => '2022-10-12 11:20',
+                'orario_di_arrivo' => '2022-10-12 13:20',
+                'codice_treno' => 15141196,
+                'numero_carrozze' => 8,
+                'in_orario' => 1,
+                'cancellato' => 0
+            ],
+            [
+                'azienda' => 'Trenord',
+                'stazione_di_partenza' => 'Milano',
+                'stazione_di_arrivo' => 'Bologna',
+                'orario_di_partenza' => '2022-10-13 19:15',
+                'orario_di_arrivo' => '2022-10-13 23:20',
+                'codice_treno' => 1441196,
+                'numero_carrozze' => 20,
+                'in_orario' => 1,
+                'cancellato' => 0
+            ],
+            [
+                'azienda' => 'Trenitalia',
+                'stazione_di_partenza' => 'Milano',
+                'stazione_di_arrivo' => 'Cremona',
+                'orario_di_partenza' => '2022-10-12 16:10',
+                'orario_di_arrivo' => '2022-10-12 17:20',
+                'codice_treno' => 14119886,
+                'numero_carrozze' => 20,
                 'in_orario' => 1,
                 'cancellato' => 0
             ],
